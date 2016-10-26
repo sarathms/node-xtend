@@ -2,12 +2,12 @@ Source: node-xtend
 Section: web
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
-Uploaders: FIX_ME debian author
+Uploaders: Sarath M S <debian@sarathms.me>
 Build-Depends:
  debhelper (>= 9)
  , dh-buildinfo
  , nodejs
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/Raynos/xtend
 Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-xtend.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-xtend.git
@@ -18,6 +18,8 @@ Depends:
  ${misc:Depends}
  , nodejs
 Description: extend like a boss
- FIX_ME long description
+ xtend is a basic utility library which allows you to extend an object
+ by appending all of the properties from each object in a list. When 
+ there are identical properties, the right-most property takes precedence.
  .
  Node.js is an event-based server-side JavaScript engine.
