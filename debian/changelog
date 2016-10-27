@@ -1,5 +1,5 @@
-node-xtend (4.0.1-1) UNRELEASED; urgency=low
+node-xtend (4.0.1-1) unstable; urgency=low
 
   * Initial release (Closes: #842139)
 
- -- Sarath M S <debian@sarathms.me>  Wed, 26 Oct 2016 23:44:02 +0530
+ -- Sarath M S <debian@sarathms.me>  Thu, 27 Oct 2016 10:12:20 +0530
